@@ -1,7 +1,5 @@
 Slutprojekt för Native-Javascript 2021/11/12
 
-https://github.com/99ru/javascript-slutprojekt-old-/blob/master/swapi.png
-
 ![image](https://user-images.githubusercontent.com/89448433/157432515-59569980-7fa8-40ea-bc01-57f0d1944b6a.png)
 
 
