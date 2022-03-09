@@ -1,5 +1,7 @@
 Slutprojekt för Native-Javascript 2021/11/12
 
+https://github.com/99ru/javascript-slutprojekt-old-/blob/master/swapi.png
+
 Specifikation
 En lista på karaktärer som hämtas från https://swapi.dev
 Listan ska vara paginerad
