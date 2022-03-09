@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ropa+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Colors for header */
+h1,
+h4 {
+  color: #ffd600;
+  font-family: "Ropa Sans", sans-serif;
+  letter-spacing: 0.4rem;
+  font-size: 2rem;
+}
+h3 {
+  font-family: "Ropa Sans", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+p,
+span,
+i {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+
+.characters-info > p:nth-child(even) {
+  background-color: #8e8e8e;
+  color: white;
+}
+
+.container {
+ /*  max-width: 1250px; */
+}
+header {
+  background-image: url(/assets/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header > h1 {
+  padding: 6rem;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #444444;
+  padding: 0 2rem 2rem 2rem;
+  
+}
+
+article > p {
+  padding: 1rem;
+}
+p {
+  padding: 0.3rem;
+}
+.title-charcters {
+  background-color: #535556;
+  padding: 1.5rem 8rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.title-details {
+  background-color: #748687;
+  padding: 1.5rem 8rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.section-shape {
+  transform: translateY(-3rem);
+  border-radius: 0.5rem;
+  background-color: #c4c4c4;
+  max-height: 900px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.characters-info > p:hover {
+  background-color: #535556;
+}
+.characters-info > p:hover:after {
+  content: "►";
+  padding-left: 1rem;
+}
+
+div > p {
+  padding: 0.5rem 1rem;
+}
+div > h3 {
+  padding: 1rem;
+}
+.planets-info {
+  background-color: #8e8e8e;
+  color: white;
+  max-height: 450px;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.next-page {
+  align-self: center;
+  padding-top: 13rem;
+  padding-bottom: 2rem;
+}
+.next-page > .backward {
+  transform: rotate(180deg);
+}
+.spinner-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(10rem);
+}
+.spinner {
+  z-index: 99999;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #8e8e8e;
+  border-radius: 50%;
+  border-top: 33px solid transparent;
+  animation: spin 4s linear infinite;
+  background-color: transparent;
+}
+.spinnerPlanet {
+  z-index: 99999;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #fdfdfd;
+  border-radius: 50%;
+  border-top: 33px solid transparent;
+  animation: spin 4s linear infinite;
+  background-color: transparent;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
