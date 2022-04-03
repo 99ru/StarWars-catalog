@@ -1,4 +1,4 @@
-Slutprojekt för Native-Javascript 2021/11/12 IT-Högskolan
+First Vanilla js project - 2021/11/12 IT-Högskolan
 
 ![image](https://user-images.githubusercontent.com/89448433/157432515-59569980-7fa8-40ea-bc01-57f0d1944b6a.png)
 
